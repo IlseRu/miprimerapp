@@ -1,0 +1,13 @@
+#idBoton{
+    border-radius: 5px;
+    background-color: black;
+    border-color: black;
+    border-width: 1px;
+    color: white;
+    font-size: 20px;
+    padding: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family:'Century Gothic';
+  
+  }

@@ -1,0 +1,39 @@
+.App{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 5rem;
+  background-color: rgb(250, 92, 203);
+  color: aliceblue;
+  font-family:'Century Gothic';
+}
+
+button{
+  border-radius: 5px;
+  background: transparent;
+  border-color: black;
+  border-width: 1px;
+  color: white;
+  font-size: 20px;
+  padding: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family:'Century Gothic';
+
+}
+
+button:hover{
+  background: #c08ef0;
+}
+
+span{
+  font-size: 15px;
+  font-family: 'Century Gothic';
+}
+
+input{
+  padding: 5px;
+  font-family: 'Verdana';
+}

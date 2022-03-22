@@ -62,7 +62,13 @@ const returnUsers = () => {
       <div className="users__box">
         {data?.map((item, index) => (
           <div className="user__card" key={index}>
-            <span>{item.name}</span>
+            <span>Name : {item.name}</span>
+            <br></br>
+            <span>Username: {item.username}</span>
+            <br></br>
+            <span>Email: {item.email}</span>
+            <br></br>
+            <span>Website: {item.website}</span>
           </div>
         ))}
       </div>

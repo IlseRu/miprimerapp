@@ -1,7 +1,8 @@
 import './styles.css';
+import React from 'react';
 
-export function Boton (){
+export function Boton ({text , onClick}){
     return(
-        <button id="idBoton">Soy un componente</button>
+        <button className="idBot on" onClick={onClick}>{text}</button>
     )
 }
